@@ -7,6 +7,7 @@ font-family: 'PT Sans', sans-serif; */
 
   --color-light: rgb(90, 88, 88);
   --color-primary: teal;
+  --color-white: white;
 
   --size-xl: 3.5rem;
   --size-lg: 3rem;
@@ -199,7 +200,7 @@ p {
 .about-section {
   padding: 8rem 0;
   background-color: var(--color-primary);
-  color: white;
+  color: var(--color-white);
   text-align: center;
 }
 
@@ -211,7 +212,7 @@ p {
 .about-section .about-title::before {
   content: "";
   position: absolute;
-  border-top: 4px solid white;
+  border-top: 4px solid var(--color-white);
   border-radius: 10px;
   width: 3rem;
   bottom: 0;
@@ -239,7 +240,7 @@ p {
 }
 
 .about-section p {
-  color: white;
+  color: var(--color-white);
   text-align: justify;
 }
 
@@ -250,7 +251,7 @@ p {
 }
 
 .vertical-timeline-element-content span {
-  color: white;
+  color: var(--color-white);
 }
 
 /* Projects Section */
@@ -305,7 +306,9 @@ p {
   text-align: center;
   padding: 8rem 0;
   background-color: var(--color-primary);
-  margin-bottom: 8rem;
+  background-image: url(./assets/img/cta-bg.jpg);
+  background-size: cover;
+  margin-bottom: 4rem;
 }
 
 .cta-group {
@@ -314,7 +317,7 @@ p {
 }
 
 .cta-card {
-  background-color: white;
+  background-color: var(--color-white);
   padding: 6rem 0;
   border-radius: 5px;
   transition: all 0.2s;
@@ -335,14 +338,14 @@ p {
   display: inline-block;
   font-family: var(--font-secondry);
   padding-bottom: 0.5rem;
-  color: white;
+  color: var(--color-white);
   margin-bottom: 5rem;
 }
 
 .cta-title::before {
   content: "";
   position: absolute;
-  border-top: 4px solid white;
+  border-top: 4px solid var(--color-white);
   border-radius: 10px;
   width: 3rem;
   bottom: 0;
@@ -371,8 +374,8 @@ p {
 
 /* Footer Section */
 .footer-section {
-  padding: 4rem 0 4rem;
-  background-color: #ffffff;
+  padding: 0rem 0 1rem;
+  background-color: #ffffff !important;
   color: #4b4c4d;
 }
 
@@ -450,7 +453,7 @@ p {
     margin: auto;
     position: absolute;
     top: 0;
-    border: 1px solid white;
+    border: 1px solid var(--color-white);
   } */
 
 .offcanvas-logo {
