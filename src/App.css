@@ -1,6 +1,12 @@
 /* 
 font-family: 'Open Sans', sans-serif;
 font-family: 'PT Sans', sans-serif; */
+
+@media screen and (max-width: 576px) {
+  .row > * {
+    padding: 0;
+  }
+}
 :root {
   --font-primary: "Open Sans", sans-serif;
   --font-secondry: "PT Sans", sans-serif;
@@ -229,7 +235,13 @@ p {
   }
 }
 
-@media only screen and (max-width: 425px) {
+/* @media only screen and (max-width: 425px) {
+  .about-section .about-text {
+    width: 90%;
+  }
+} */
+
+@media screen and (max-width: 576px) {
   .about-section .about-text {
     width: 90%;
   }
@@ -273,12 +285,18 @@ p {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
+  .projects-group {
+    width: 90%;
+  }
+}
+
+/* @media only screen and (max-width: 425px) {
   .projects-group {
     width: 90%;
     margin: auto;
   }
-}
+} */
 
 .projects-section .projects-title {
   position: relative;
@@ -330,11 +348,19 @@ p {
   margin: auto;
 }
 
+@media screen and (max-width: 576px) {
+  .cta-group {
+    width: 100%;
+  }
+}
+
 .cta-card {
-  background-color: var(--color-white);
+  background-color: rgb(255, 255, 255);
   padding: 6rem 0;
-  border-radius: 5px;
+  border-radius: 3px;
   transition: all 0.2s;
+  border: 1px solid rgb(223, 219, 219);
+  box-shadow: 0 0 8px 1px rgb(55, 55, 55);
 }
 
 .cta-card:hover {
@@ -344,6 +370,14 @@ p {
 @media only screen and (max-width: 1024px) {
   .cta-card {
     margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .cta-card {
+    margin: 0rem 1rem;
+    padding: 2.5rem 0;
+    border-radius: 0;
   }
 }
 

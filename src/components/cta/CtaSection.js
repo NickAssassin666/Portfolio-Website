@@ -3,7 +3,7 @@ const CtaSection = () => {
   return (
     <section id="cta-section" className="cta-section">
       <div className="container">
-        <h2 className="cta-title">Contact Me</h2>
+        <h2 className="cta-title">Contact me</h2>
         <div className="cta-group">
           <div className="row">
             <CtaList />

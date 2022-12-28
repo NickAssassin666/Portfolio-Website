@@ -25,7 +25,7 @@ const MainNavigation = () => {
               className="offcanvas-title offcanvas-logo"
               id="offcanvasNavbarLabel"
             >
-              ms
+              {`<ms/>`}
             </h5>
             <button
               type="button"

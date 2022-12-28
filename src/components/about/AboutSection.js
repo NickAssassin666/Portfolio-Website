@@ -3,11 +3,11 @@ const AboutSection = () => {
     <section id="about-section" className="about-section">
       <div className="container">
         <div className="about-text">
-          <h2 className="about-title">About Me</h2>
+          <h2 className="about-title">About me</h2>
           <div className="about-info">
             <h3>Hi, I’m Shahez. Nice to meet you.</h3>
             <div className="row mt-4">
-              <div className="col-6">
+              <div className="col-md-6 col-sm-12">
                 <p>
                   A Mechanical Engineer, Graduated from an NBA accradated
                   college who is entusiastic about learning, and gaining
@@ -17,7 +17,7 @@ const AboutSection = () => {
                   wouldn't know about.
                 </p>
               </div>
-              <div className="col-6">
+              <div className="col-md-6 col-sm-12">
                 <p>
                   People always talk about what their superpower would be if
                   they ever were to get one and you already know what I want

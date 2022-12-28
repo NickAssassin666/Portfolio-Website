@@ -6,9 +6,9 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 const ProjectItem = (props) => {
   return (
-    <div className="col-sm-12 col-md-6 col-lg-4 project-container">
+    <div className=" col-lg-4  col-md-6 col-sm-12 project-container">
       <a href={props.link}>
-        <Card sx={{ maxWidth: 345 }}>
+        <Card>
           <CardActionArea>
             <CardMedia
               component="img"

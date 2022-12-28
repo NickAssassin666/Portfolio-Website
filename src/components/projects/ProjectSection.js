@@ -5,7 +5,7 @@ const ProjectSection = () => {
     <section id="projects-section" className="projects-section">
       <div className="container">
         <div className="projects-group">
-          <h2 className="projects-title">My Projects</h2>
+          <h2 className="projects-title">My projects</h2>
           <div className="projects-info">
             <div className="projects">
               <div className="row">
